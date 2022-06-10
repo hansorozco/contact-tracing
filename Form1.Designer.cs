@@ -46,7 +46,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(187, 192);
+            this.button1.Location = new System.Drawing.Point(268, 231);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 50);
             this.button1.TabIndex = 0;
@@ -56,34 +56,34 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(217, 51);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(262, 25);
+            this.textBox1.Size = new System.Drawing.Size(310, 29);
             this.textBox1.TabIndex = 1;
             // 
             // textBox2
             // 
-            this.textBox2.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(217, 82);
+            this.textBox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(217, 86);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(262, 25);
+            this.textBox2.Size = new System.Drawing.Size(310, 29);
             this.textBox2.TabIndex = 2;
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(217, 113);
+            this.textBox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(217, 124);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(262, 25);
+            this.textBox3.Size = new System.Drawing.Size(310, 29);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
             // 
-            this.textBox4.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(217, 144);
+            this.textBox4.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(217, 159);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(262, 25);
+            this.textBox4.Size = new System.Drawing.Size(310, 29);
             this.textBox4.TabIndex = 4;
             // 
             // button2
@@ -91,7 +91,7 @@
             this.button2.BackColor = System.Drawing.Color.Crimson;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("ROG Fonts", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(187, 248);
+            this.button2.Location = new System.Drawing.Point(268, 287);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 51);
             this.button2.TabIndex = 5;
@@ -104,7 +104,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(27, 58);
+            this.label1.Location = new System.Drawing.Point(28, 62);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(175, 18);
             this.label1.TabIndex = 6;
@@ -115,7 +115,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label2.Location = new System.Drawing.Point(28, 89);
+            this.label2.Location = new System.Drawing.Point(28, 97);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(174, 18);
             this.label2.TabIndex = 7;
@@ -126,7 +126,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(97, 120);
+            this.label3.Location = new System.Drawing.Point(97, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 18);
             this.label3.TabIndex = 8;
@@ -137,7 +137,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(15, 151);
+            this.label4.Location = new System.Drawing.Point(11, 165);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(191, 18);
             this.label4.TabIndex = 9;
@@ -148,7 +148,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(546, 317);
+            this.ClientSize = new System.Drawing.Size(607, 389);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
