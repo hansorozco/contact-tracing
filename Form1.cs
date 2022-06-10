@@ -25,14 +25,19 @@ namespace ContacTracibng
 
         private void button1click(object sender, EventArgs e)
         {
-            //stream writer file =file.append("@Downloads\test.txt")
+            //stream writer file =file.append("C:\\Users\\hans\\source\\test.txt"),true;
 
-            StreamWriter file = new StreamWriter("@C:\\Users\\hans\\source\\test.txt");
-            file.WriteLine("Name :" + textBox1.Text);
-            file.WriteLine("Date :" +textBox2.Text);
+            StreamWriter file = new StreamWriter("C:\\Users\\hans\\source\\test.txt");
+            file.WriteLine("Complete Name :" + textBox1.Text);
+            file.WriteLine("Complete Date :" +textBox2.Text);
             file.WriteLine("Address :"+textBox1.Text);
             file.WriteLine("Contact Number :" + textBox1.Text);
             MessageBox.Show("Thank you very much");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
