@@ -1,0 +1,11 @@
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\ContacTracibng.exe.config
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\ContacTracibng.exe
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\ContacTracibng.pdb
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.csproj.AssemblyReference.cache
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.csproj.SuggestedBindingRedirects.cache
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.Form1.resources
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.Properties.Resources.resources
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.csproj.GenerateResource.cache
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.csproj.CoreCompileInputs.cache
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.exe
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.pdb
