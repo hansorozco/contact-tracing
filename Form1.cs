@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Windows;
 
 namespace ContacTracibng
 {
@@ -22,12 +23,11 @@ namespace ContacTracibng
         {
 
         }
-
         private void button1click(object sender, EventArgs e)
         {
             //stream writer file =file.append("C:\\Users\\hans\\source\\test.txt"),true;
 
-            StreamWriter file = new StreamWriter("C:\\Users\\hans\\source\\test.txt");
+            StreamWriter file = new StreamWriter("C:\\Users\\hans\\Documents\testing.txt");
             file.WriteLine("Complete Name :" + textBox1.Text);
             file.WriteLine("Complete Date :" +textBox2.Text);
             file.WriteLine("Address :"+textBox1.Text);
