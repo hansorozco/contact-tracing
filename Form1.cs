@@ -21,13 +21,12 @@ namespace ContacTracibng
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
-
 
         private void savebuttoon(object sender, EventArgs e)
         {
-            //stream writer file =file.append("@Downloads\test.txt")
+            //stream writer file = file.appendtext("@Downloads\test.txt")
 
             StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing.txt");
             file.WriteLine("Complete Name :" + namebox.Text);
@@ -43,19 +42,35 @@ namespace ContacTracibng
             Application.Exit();
         }
 
-        private void informationbutton(object sender, EventArgs e)
+        private void savebutton2_Click(object sender, EventArgs e)
         {
-            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing.txt");
-
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing2.txt");
+            file.WriteLine("Complete Name :" + namebox2.Text);
+            file.WriteLine("Complete Date :" + datebox2.Text);
+            file.WriteLine("Address :" + addressbox2.Text);
+            file.WriteLine("Contact Number :" + numberbox2.Text);
+            file.Close();
+            MessageBox.Show("Thank you very much!");
         }
 
-        private void addnewinformation(object sender, EventArgs e)
+        private void savaebutton3_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing.txt");
-            file.WriteLine("Complete Name :" + namebox.Text);
-            file.WriteLine("Complete Date :" + datebox.Text);
-            file.WriteLine("Address :" + addressbox.Text);
-            file.WriteLine("Contact Number :" + numberbox.Text);
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing3.txt");
+            file.WriteLine("Complete Name :" + namebox3.Text);
+            file.WriteLine("Complete Date :" + datebox3.Text);
+            file.WriteLine("Address :" + addressbox3.Text);
+            file.WriteLine("Contact Number :" + numberbox3.Text);
+            file.Close();
+            MessageBox.Show("Thank you very much!");
+        }
+
+        private void savebutton4_Click(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing4.txt");
+            file.WriteLine("Complete Name :" + namebox4.Text);
+            file.WriteLine("Complete Date :" + datebox4.Text);
+            file.WriteLine("Address :" + addressbox4.Text);
+            file.WriteLine("Contact Number :" + numberbox4.Text);
             file.Close();
             MessageBox.Show("Thank you very much!");
         }
