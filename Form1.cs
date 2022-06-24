@@ -23,22 +23,42 @@ namespace ContacTracibng
         {
 
         }
-        private void button1click(object sender, EventArgs e)
+
+
+        private void savebuttoon(object sender, EventArgs e)
         {
             //stream writer file =file.append("@Downloads\test.txt")
 
             StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing.txt");
-            file.WriteLine("Complete Name :" + textBox1.Text);
-            file.WriteLine("Complete Date :" +textBox2.Text);
-            file.WriteLine("Address :"+textBox1.Text);
-            file.WriteLine("Contact Number :" + textBox3.Text);
+            file.WriteLine("Complete Name :" + namebox.Text);
+            file.WriteLine("Complete Date :" + datebox.Text);
+            file.WriteLine("Address :" + addressbox.Text);
+            file.WriteLine("Contact Number :" + numberbox.Text);
             file.Close();
-            MessageBox.Show("Thank you very much");
+            MessageBox.Show("Thank you very much!");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void exitbutton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        private void informationbutton(object sender, EventArgs e)
+        {
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing.txt");
+
+        }
+
+        private void addnewinformation(object sender, EventArgs e)
+        {
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing.txt");
+            file.WriteLine("Complete Name :" + namebox.Text);
+            file.WriteLine("Complete Date :" + datebox.Text);
+            file.WriteLine("Address :" + addressbox.Text);
+            file.WriteLine("Contact Number :" + numberbox.Text);
+            file.Close();
+            MessageBox.Show("Thank you very much!");
+        }
     }
 }
+

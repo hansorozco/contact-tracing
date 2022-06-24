@@ -28,76 +28,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.savebutton = new System.Windows.Forms.Button();
+            this.namebox = new System.Windows.Forms.TextBox();
+            this.datebox = new System.Windows.Forms.TextBox();
+            this.addressbox = new System.Windows.Forms.TextBox();
+            this.numberbox = new System.Windows.Forms.TextBox();
+            this.exitbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // savebutton
             // 
-            this.button1.BackColor = System.Drawing.Color.LawnGreen;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(268, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1click);
+            this.savebutton.BackColor = System.Drawing.Color.LawnGreen;
+            this.savebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.savebutton.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.savebutton.ForeColor = System.Drawing.Color.Black;
+            this.savebutton.Location = new System.Drawing.Point(118, 235);
+            this.savebutton.Name = "savebutton";
+            this.savebutton.Size = new System.Drawing.Size(104, 50);
+            this.savebutton.TabIndex = 0;
+            this.savebutton.Text = "Save";
+            this.savebutton.UseVisualStyleBackColor = false;
+            this.savebutton.Click += new System.EventHandler(this.savebuttoon);
             // 
-            // textBox1
+            // namebox
             // 
-            this.textBox1.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(217, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(310, 29);
-            this.textBox1.TabIndex = 1;
+            this.namebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.namebox.Location = new System.Drawing.Point(217, 51);
+            this.namebox.Name = "namebox";
+            this.namebox.Size = new System.Drawing.Size(333, 29);
+            this.namebox.TabIndex = 1;
             // 
-            // textBox2
+            // datebox
             // 
-            this.textBox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(217, 86);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(310, 29);
-            this.textBox2.TabIndex = 2;
+            this.datebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datebox.Location = new System.Drawing.Point(217, 86);
+            this.datebox.Name = "datebox";
+            this.datebox.Size = new System.Drawing.Size(333, 29);
+            this.datebox.TabIndex = 2;
             // 
-            // textBox3
+            // addressbox
             // 
-            this.textBox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(217, 124);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(310, 29);
-            this.textBox3.TabIndex = 3;
+            this.addressbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addressbox.Location = new System.Drawing.Point(217, 124);
+            this.addressbox.Name = "addressbox";
+            this.addressbox.Size = new System.Drawing.Size(333, 29);
+            this.addressbox.TabIndex = 3;
             // 
-            // textBox4
+            // numberbox
             // 
-            this.textBox4.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(217, 159);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(310, 29);
-            this.textBox4.TabIndex = 4;
+            this.numberbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numberbox.Location = new System.Drawing.Point(217, 159);
+            this.numberbox.Name = "numberbox";
+            this.numberbox.Size = new System.Drawing.Size(333, 29);
+            this.numberbox.TabIndex = 4;
             // 
-            // button2
+            // exitbutton
             // 
-            this.button2.BackColor = System.Drawing.Color.Crimson;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("ROG Fonts", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(268, 287);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(104, 51);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "EXIT";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.exitbutton.BackColor = System.Drawing.Color.Crimson;
+            this.exitbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exitbutton.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exitbutton.Location = new System.Drawing.Point(239, 235);
+            this.exitbutton.Name = "exitbutton";
+            this.exitbutton.Size = new System.Drawing.Size(104, 50);
+            this.exitbutton.TabIndex = 5;
+            this.exitbutton.Text = "EXIT";
+            this.exitbutton.UseVisualStyleBackColor = false;
+            this.exitbutton.Click += new System.EventHandler(this.exitbutton_Click);
             // 
             // label1
             // 
@@ -143,22 +145,51 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Contact Number:";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(358, 235);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(104, 50);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "INFO";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.informationbutton);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Orange;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button2.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(171, 301);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(225, 50);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "ADD NEW INFO";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.addnewinformation);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(607, 389);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.exitbutton);
+            this.Controls.Add(this.numberbox);
+            this.Controls.Add(this.addressbox);
+            this.Controls.Add(this.datebox);
+            this.Controls.Add(this.namebox);
+            this.Controls.Add(this.savebutton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -169,16 +200,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button savebutton;
+        private System.Windows.Forms.TextBox namebox;
+        private System.Windows.Forms.TextBox datebox;
+        private System.Windows.Forms.TextBox addressbox;
+        private System.Windows.Forms.TextBox numberbox;
+        private System.Windows.Forms.Button exitbutton;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
