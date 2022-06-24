@@ -39,7 +39,8 @@ namespace ContacTracibng
 
         private void exitbutton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thank you for using this program!");
+            MessageBox.Show("Thank you for using this program." +
+                " Have a nice day!");
             Application.Exit();
         }
 
@@ -79,8 +80,36 @@ namespace ContacTracibng
         private void checkinfobutton_Click(object sender, EventArgs e)
         {
             StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing.txt");
+            infoTextBox.Text = inputFile.ReadToEnd();
+            inputFile.Close();
+        }
+
+        private void checkinfobutton2_Click(object sender, EventArgs e)
+        {
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing2.txt");
+            infoTextBox2.Text = inputFile.ReadToEnd();
+            inputFile.Close();
+        }
+
+        private void checkinfobutton3_Click(object sender, EventArgs e)
+        {
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing3.txt");
+            infoTextBox3.Text = inputFile.ReadToEnd();
+            inputFile.Close();
+        }
+
+        private void checkinfobutton4_Click(object sender, EventArgs e)
+        {
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing4.txt");
+            infoTextBox4.Text = inputFile.ReadToEnd();
+            inputFile.Close();
+        }
+
+        private void infoTxtBox_TextChanged(object sender, EventArgs e)
+        {
 
         }
+
     }
 }
 
