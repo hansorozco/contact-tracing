@@ -21,14 +21,14 @@ namespace ContacTracibng
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void savebuttoon(object sender, EventArgs e)
         {
             //stream writer file = file.appendtext("@Downloads\test.txt")
 
-            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\savedinfounit.txt");
             file.WriteLine("Complete Name :" + namebox.Text);
             file.WriteLine("Complete Date :" + datebox.Text);
             file.WriteLine("Address :" + addressbox.Text);
@@ -46,7 +46,7 @@ namespace ContacTracibng
 
         private void savebutton2_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing2.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\savedinfounit2.txt");
             file.WriteLine("Complete Name :" + namebox2.Text);
             file.WriteLine("Complete Date :" + datebox2.Text);
             file.WriteLine("Address :" + addressbox2.Text);
@@ -57,7 +57,7 @@ namespace ContacTracibng
 
         private void savaebutton3_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing3.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\savedinfounit3.txt");
             file.WriteLine("Complete Name :" + namebox3.Text);
             file.WriteLine("Complete Date :" + datebox3.Text);
             file.WriteLine("Address :" + addressbox3.Text);
@@ -68,7 +68,7 @@ namespace ContacTracibng
 
         private void savebutton4_Click(object sender, EventArgs e)
         {
-            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\testing4.txt");
+            StreamWriter file = new StreamWriter(@"C:\Users\hans\source\savedinfounit4.txt");
             file.WriteLine("Complete Name :" + namebox4.Text);
             file.WriteLine("Complete Date :" + datebox4.Text);
             file.WriteLine("Address :" + addressbox4.Text);
@@ -79,33 +79,48 @@ namespace ContacTracibng
 
         private void checkinfobutton_Click(object sender, EventArgs e)
         {
-            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing.txt");
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\savedinfounit.txt");
             infoTextBox.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
 
         private void checkinfobutton2_Click(object sender, EventArgs e)
         {
-            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing2.txt");
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\savedinfounit2.txt");
             infoTextBox2.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
 
         private void checkinfobutton3_Click(object sender, EventArgs e)
         {
-            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing3.txt");
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\savedinfounit3.txt");
             infoTextBox3.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
 
         private void checkinfobutton4_Click(object sender, EventArgs e)
         {
-            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing4.txt");
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\savedinfounit4.txt");
             infoTextBox4.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
 
         private void infoTxtBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoTextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void infoTextBox4_TextChanged(object sender, EventArgs e)
         {
 
         }
