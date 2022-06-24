@@ -39,6 +39,7 @@ namespace ContacTracibng
 
         private void exitbutton_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Thank you for using this program!");
             Application.Exit();
         }
 
@@ -73,6 +74,12 @@ namespace ContacTracibng
             file.WriteLine("Contact Number :" + numberbox4.Text);
             file.Close();
             MessageBox.Show("Thank you very much!");
+        }
+
+        private void checkinfobutton_Click(object sender, EventArgs e)
+        {
+            StreamReader inputFile = new StreamReader(@"C:\Users\hans\source\testing.txt");
+
         }
     }
 }

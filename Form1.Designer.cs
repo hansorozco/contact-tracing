@@ -69,6 +69,10 @@
             this.savebutton2 = new System.Windows.Forms.Button();
             this.savaebutton3 = new System.Windows.Forms.Button();
             this.savebutton4 = new System.Windows.Forms.Button();
+            this.checkinfobutton = new System.Windows.Forms.Button();
+            this.checkinfobutton2 = new System.Windows.Forms.Button();
+            this.checkinfobutton3 = new System.Windows.Forms.Button();
+            this.checkinfobutton4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // savebutton
@@ -77,7 +81,7 @@
             this.savebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savebutton.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton.ForeColor = System.Drawing.Color.Black;
-            this.savebutton.Location = new System.Drawing.Point(321, 215);
+            this.savebutton.Location = new System.Drawing.Point(220, 215);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(104, 50);
             this.savebutton.TabIndex = 0;
@@ -255,7 +259,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(33, 477);
+            this.label9.Location = new System.Drawing.Point(13, 477);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(191, 18);
             this.label9.TabIndex = 27;
@@ -266,7 +270,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(119, 447);
+            this.label10.Location = new System.Drawing.Point(99, 447);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 18);
             this.label10.TabIndex = 26;
@@ -277,7 +281,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Location = new System.Drawing.Point(50, 409);
+            this.label11.Location = new System.Drawing.Point(30, 409);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(174, 18);
             this.label11.TabIndex = 25;
@@ -288,7 +292,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Location = new System.Drawing.Point(50, 374);
+            this.label12.Location = new System.Drawing.Point(30, 374);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(175, 18);
             this.label12.TabIndex = 24;
@@ -297,7 +301,7 @@
             // numberbox3
             // 
             this.numberbox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberbox3.Location = new System.Drawing.Point(239, 471);
+            this.numberbox3.Location = new System.Drawing.Point(219, 471);
             this.numberbox3.Name = "numberbox3";
             this.numberbox3.Size = new System.Drawing.Size(333, 29);
             this.numberbox3.TabIndex = 23;
@@ -305,7 +309,7 @@
             // addressbox3
             // 
             this.addressbox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressbox3.Location = new System.Drawing.Point(239, 436);
+            this.addressbox3.Location = new System.Drawing.Point(219, 436);
             this.addressbox3.Name = "addressbox3";
             this.addressbox3.Size = new System.Drawing.Size(333, 29);
             this.addressbox3.TabIndex = 22;
@@ -313,7 +317,7 @@
             // datebox3
             // 
             this.datebox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datebox3.Location = new System.Drawing.Point(239, 398);
+            this.datebox3.Location = new System.Drawing.Point(219, 398);
             this.datebox3.Name = "datebox3";
             this.datebox3.Size = new System.Drawing.Size(333, 29);
             this.datebox3.TabIndex = 21;
@@ -321,7 +325,7 @@
             // namebox3
             // 
             this.namebox3.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namebox3.Location = new System.Drawing.Point(239, 363);
+            this.namebox3.Location = new System.Drawing.Point(219, 363);
             this.namebox3.Name = "namebox3";
             this.namebox3.Size = new System.Drawing.Size(333, 29);
             this.namebox3.TabIndex = 20;
@@ -429,7 +433,7 @@
             this.unitname3.AutoSize = true;
             this.unitname3.Font = new System.Drawing.Font("ROG Fonts", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.unitname3.ForeColor = System.Drawing.SystemColors.Control;
-            this.unitname3.Location = new System.Drawing.Point(315, 318);
+            this.unitname3.Location = new System.Drawing.Point(295, 318);
             this.unitname3.Name = "unitname3";
             this.unitname3.Size = new System.Drawing.Size(127, 34);
             this.unitname3.TabIndex = 38;
@@ -452,7 +456,7 @@
             this.savebutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savebutton2.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton2.ForeColor = System.Drawing.Color.Black;
-            this.savebutton2.Location = new System.Drawing.Point(944, 215);
+            this.savebutton2.Location = new System.Drawing.Point(803, 215);
             this.savebutton2.Name = "savebutton2";
             this.savebutton2.Size = new System.Drawing.Size(104, 50);
             this.savebutton2.TabIndex = 40;
@@ -466,7 +470,7 @@
             this.savaebutton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savaebutton3.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savaebutton3.ForeColor = System.Drawing.Color.Black;
-            this.savaebutton3.Location = new System.Drawing.Point(321, 518);
+            this.savaebutton3.Location = new System.Drawing.Point(219, 523);
             this.savaebutton3.Name = "savaebutton3";
             this.savaebutton3.Size = new System.Drawing.Size(104, 50);
             this.savaebutton3.TabIndex = 41;
@@ -480,7 +484,7 @@
             this.savebutton4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savebutton4.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton4.ForeColor = System.Drawing.Color.Black;
-            this.savebutton4.Location = new System.Drawing.Point(944, 523);
+            this.savebutton4.Location = new System.Drawing.Point(803, 523);
             this.savebutton4.Name = "savebutton4";
             this.savebutton4.Size = new System.Drawing.Size(104, 50);
             this.savebutton4.TabIndex = 42;
@@ -488,12 +492,69 @@
             this.savebutton4.UseVisualStyleBackColor = false;
             this.savebutton4.Click += new System.EventHandler(this.savebutton4_Click);
             // 
+            // checkinfobutton
+            // 
+            this.checkinfobutton.BackColor = System.Drawing.Color.Yellow;
+            this.checkinfobutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkinfobutton.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkinfobutton.ForeColor = System.Drawing.Color.Black;
+            this.checkinfobutton.Location = new System.Drawing.Point(330, 215);
+            this.checkinfobutton.Name = "checkinfobutton";
+            this.checkinfobutton.Size = new System.Drawing.Size(172, 50);
+            this.checkinfobutton.TabIndex = 43;
+            this.checkinfobutton.Text = "CHECK INFO";
+            this.checkinfobutton.UseVisualStyleBackColor = false;
+            this.checkinfobutton.Click += new System.EventHandler(this.checkinfobutton_Click);
+            // 
+            // checkinfobutton2
+            // 
+            this.checkinfobutton2.BackColor = System.Drawing.Color.Yellow;
+            this.checkinfobutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkinfobutton2.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkinfobutton2.ForeColor = System.Drawing.Color.Black;
+            this.checkinfobutton2.Location = new System.Drawing.Point(913, 215);
+            this.checkinfobutton2.Name = "checkinfobutton2";
+            this.checkinfobutton2.Size = new System.Drawing.Size(172, 50);
+            this.checkinfobutton2.TabIndex = 44;
+            this.checkinfobutton2.Text = "CHECK INFO";
+            this.checkinfobutton2.UseVisualStyleBackColor = false;
+            // 
+            // checkinfobutton3
+            // 
+            this.checkinfobutton3.BackColor = System.Drawing.Color.Yellow;
+            this.checkinfobutton3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkinfobutton3.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkinfobutton3.ForeColor = System.Drawing.Color.Black;
+            this.checkinfobutton3.Location = new System.Drawing.Point(330, 523);
+            this.checkinfobutton3.Name = "checkinfobutton3";
+            this.checkinfobutton3.Size = new System.Drawing.Size(172, 50);
+            this.checkinfobutton3.TabIndex = 45;
+            this.checkinfobutton3.Text = "CHECK INFO";
+            this.checkinfobutton3.UseVisualStyleBackColor = false;
+            // 
+            // checkinfobutton4
+            // 
+            this.checkinfobutton4.BackColor = System.Drawing.Color.Yellow;
+            this.checkinfobutton4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.checkinfobutton4.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkinfobutton4.ForeColor = System.Drawing.Color.Black;
+            this.checkinfobutton4.Location = new System.Drawing.Point(913, 523);
+            this.checkinfobutton4.Name = "checkinfobutton4";
+            this.checkinfobutton4.Size = new System.Drawing.Size(172, 50);
+            this.checkinfobutton4.TabIndex = 46;
+            this.checkinfobutton4.Text = "CHECK INFO";
+            this.checkinfobutton4.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1151, 761);
+            this.Controls.Add(this.checkinfobutton4);
+            this.Controls.Add(this.checkinfobutton3);
+            this.Controls.Add(this.checkinfobutton2);
+            this.Controls.Add(this.checkinfobutton);
             this.Controls.Add(this.savebutton4);
             this.Controls.Add(this.savaebutton3);
             this.Controls.Add(this.savebutton2);
@@ -588,6 +649,10 @@
         private System.Windows.Forms.Button savebutton2;
         private System.Windows.Forms.Button savaebutton3;
         private System.Windows.Forms.Button savebutton4;
+        private System.Windows.Forms.Button checkinfobutton;
+        private System.Windows.Forms.Button checkinfobutton2;
+        private System.Windows.Forms.Button checkinfobutton3;
+        private System.Windows.Forms.Button checkinfobutton4;
     }
 }
 
