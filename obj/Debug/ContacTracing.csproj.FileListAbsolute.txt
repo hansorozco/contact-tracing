@@ -9,3 +9,5 @@ C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.cspr
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.csproj.CoreCompileInputs.cache
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.exe
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.pdb
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.csproj.ResolveComReference.cache
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\Interop.IISVersionManagerLibrary.dll
