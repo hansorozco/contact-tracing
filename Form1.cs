@@ -11,6 +11,8 @@ using System.IO;
 using System.Windows;
 using Excel = Microsoft.Office.Interop.Access;
 using MessageBox = System.Windows.Forms.MessageBox;
+using ZXing;
+using ZXing.QrCode;
 
 namespace ContacTracibng
 {
@@ -131,6 +133,23 @@ namespace ContacTracibng
             StreamReader inputFile = new StreamReader(@"savedinfounit2.txt");
             infotextbox_b.Text = inputFile.ReadToEnd();
             inputFile.Close();
+        }
+
+        private void generatebutton1_Click(object sender, EventArgs e)
+        {
+            var options = new QrCodeEncodingOptions
+            {
+                Height = qrcodebox1.Height,
+                Width = qrcodebox1.Width
+            };
+            // create instance of barcodewriter
+            var writer = new BarcodeWriter();
+            // set format
+            writer.Format = BarcodeFormat.QR_CODE;
+            writer.Options= options;
+            var Text =  namebox.Text + datebox.Text  + addressbox.Text + numberbox.Text ;
+            var result = writer.Write(Text);
+            qrcodebox1.Image = result;
         }
 
         

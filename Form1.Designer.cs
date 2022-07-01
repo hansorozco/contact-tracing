@@ -57,9 +57,12 @@
             this.addressbox2 = new System.Windows.Forms.TextBox();
             this.datebox2 = new System.Windows.Forms.TextBox();
             this.namebox2 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.qrcodebox1 = new System.Windows.Forms.PictureBox();
+            this.generatebutton1 = new System.Windows.Forms.Button();
+            this.generatebutton2 = new System.Windows.Forms.Button();
+            this.qrcodebox_2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.qrcodebox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qrcodebox_2)).BeginInit();
             this.SuspendLayout();
             // 
             // exitbutton
@@ -167,7 +170,7 @@
             // 
             // clearbutton
             // 
-            this.clearbutton.BackColor = System.Drawing.Color.LawnGreen;
+            this.clearbutton.BackColor = System.Drawing.Color.Red;
             this.clearbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearbutton.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearbutton.ForeColor = System.Drawing.Color.Black;
@@ -271,7 +274,7 @@
             // 
             // clearbutton2
             // 
-            this.clearbutton2.BackColor = System.Drawing.Color.LawnGreen;
+            this.clearbutton2.BackColor = System.Drawing.Color.Red;
             this.clearbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearbutton2.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearbutton2.ForeColor = System.Drawing.Color.Black;
@@ -373,36 +376,61 @@
             this.namebox2.Size = new System.Drawing.Size(333, 29);
             this.namebox2.TabIndex = 65;
             // 
-            // pictureBox1
+            // qrcodebox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.Location = new System.Drawing.Point(127, 393);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(228, 179);
-            this.pictureBox1.TabIndex = 82;
-            this.pictureBox1.TabStop = false;
+            this.qrcodebox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.qrcodebox1.Location = new System.Drawing.Point(143, 439);
+            this.qrcodebox1.Name = "qrcodebox1";
+            this.qrcodebox1.Size = new System.Drawing.Size(228, 179);
+            this.qrcodebox1.TabIndex = 82;
+            this.qrcodebox1.TabStop = false;
             // 
-            // button3
+            // generatebutton1
             // 
-            this.button3.BackColor = System.Drawing.Color.LawnGreen;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button3.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(382, 462);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 110);
-            this.button3.TabIndex = 83;
-            this.button3.Text = "generate qr code";
-            this.button3.UseVisualStyleBackColor = false;
+            this.generatebutton1.BackColor = System.Drawing.Color.LawnGreen;
+            this.generatebutton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.generatebutton1.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.generatebutton1.ForeColor = System.Drawing.Color.Black;
+            this.generatebutton1.Location = new System.Drawing.Point(377, 439);
+            this.generatebutton1.Name = "generatebutton1";
+            this.generatebutton1.Size = new System.Drawing.Size(142, 110);
+            this.generatebutton1.TabIndex = 83;
+            this.generatebutton1.Text = "generate qr code";
+            this.generatebutton1.UseVisualStyleBackColor = false;
+            this.generatebutton1.Click += new System.EventHandler(this.generatebutton1_Click);
+            // 
+            // generatebutton2
+            // 
+            this.generatebutton2.BackColor = System.Drawing.Color.LawnGreen;
+            this.generatebutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.generatebutton2.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.generatebutton2.ForeColor = System.Drawing.Color.Black;
+            this.generatebutton2.Location = new System.Drawing.Point(970, 439);
+            this.generatebutton2.Name = "generatebutton2";
+            this.generatebutton2.Size = new System.Drawing.Size(142, 110);
+            this.generatebutton2.TabIndex = 85;
+            this.generatebutton2.Text = "generate qr code";
+            this.generatebutton2.UseVisualStyleBackColor = false;
+            // 
+            // qrcodebox_2
+            // 
+            this.qrcodebox_2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.qrcodebox_2.Location = new System.Drawing.Point(736, 439);
+            this.qrcodebox_2.Name = "qrcodebox_2";
+            this.qrcodebox_2.Size = new System.Drawing.Size(228, 179);
+            this.qrcodebox_2.TabIndex = 84;
+            this.qrcodebox_2.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1137, 656);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1155, 656);
+            this.Controls.Add(this.generatebutton2);
+            this.Controls.Add(this.qrcodebox_2);
+            this.Controls.Add(this.generatebutton1);
+            this.Controls.Add(this.qrcodebox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.infotextbox_b);
@@ -438,7 +466,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CONTACT TRACING";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qrcodebox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qrcodebox_2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -474,8 +503,10 @@
         private System.Windows.Forms.TextBox addressbox2;
         private System.Windows.Forms.TextBox datebox2;
         private System.Windows.Forms.TextBox namebox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.PictureBox qrcodebox1;
+        private System.Windows.Forms.Button generatebutton1;
+        private System.Windows.Forms.Button generatebutton2;
+        private System.Windows.Forms.PictureBox qrcodebox_2;
     }
 }
 

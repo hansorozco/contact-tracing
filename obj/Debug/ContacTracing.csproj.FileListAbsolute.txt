@@ -17,3 +17,4 @@ C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.presentation
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.xml
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.presentation.xml
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.csproj.CopyComplete
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\AForge.dll
