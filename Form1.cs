@@ -71,7 +71,7 @@ namespace ContacTracibng
                 + " Contact Number:" + data[3]
 
                 + Environment.NewLine + oldatat);
-            MessageBox.Show("Thank you very much!");
+            MessageBox.Show("Information Saved. Thank you very much!");
             sw.Close();// important to close
         }
 
@@ -81,7 +81,7 @@ namespace ContacTracibng
             datebox.Clear();
             addressbox.Clear();
             numberbox.Clear();
-            MessageBox.Show("CLEARED");
+            MessageBox.Show("TEXT BOXES CLEARED");
         }
 
         private void checkinfobutton_clicked(object sender, EventArgs e)
@@ -113,7 +113,7 @@ namespace ContacTracibng
                 + " Contact Number:" + data[3]
 
                 + Environment.NewLine + oldatat);
-            MessageBox.Show("Thank you very much!");
+            MessageBox.Show("Information Saved. Thank you very much!");
             sw.Close();// important to close
         }
 
@@ -123,7 +123,7 @@ namespace ContacTracibng
             datebox2.Clear();
             addressbox2.Clear();
             numberbox2.Clear();
-            MessageBox.Show("CLEARED");
+            MessageBox.Show("TEXT BOXES CLEARED");
         }
 
         private void checkinfobutton2_clicked(object sender, EventArgs e)
@@ -132,6 +132,8 @@ namespace ContacTracibng
             infotextbox_b.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
+
+        
     }
 }
 

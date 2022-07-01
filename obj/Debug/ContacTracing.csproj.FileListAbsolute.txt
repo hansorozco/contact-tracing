@@ -11,3 +11,9 @@ C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.exe
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracibng.pdb
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.csproj.ResolveComReference.cache
 C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\Interop.IISVersionManagerLibrary.dll
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\QRCoder.dll
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.dll
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.presentation.dll
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.xml
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\bin\Debug\zxing.presentation.xml
+C:\Users\hans\source\repos\tictactoe\ContacTracibng\obj\Debug\ContacTracing.csproj.CopyComplete

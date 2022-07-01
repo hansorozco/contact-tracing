@@ -57,6 +57,9 @@
             this.addressbox2 = new System.Windows.Forms.TextBox();
             this.datebox2 = new System.Windows.Forms.TextBox();
             this.namebox2 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // exitbutton
@@ -64,9 +67,9 @@
             this.exitbutton.BackColor = System.Drawing.Color.Crimson;
             this.exitbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.exitbutton.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitbutton.Location = new System.Drawing.Point(1018, 329);
+            this.exitbutton.Location = new System.Drawing.Point(10, 12);
             this.exitbutton.Name = "exitbutton";
-            this.exitbutton.Size = new System.Drawing.Size(104, 50);
+            this.exitbutton.Size = new System.Drawing.Size(91, 47);
             this.exitbutton.TabIndex = 5;
             this.exitbutton.Text = "EXIT";
             this.exitbutton.UseVisualStyleBackColor = false;
@@ -77,7 +80,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label9.Location = new System.Drawing.Point(10, 160);
+            this.label9.Location = new System.Drawing.Point(9, 209);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(191, 18);
             this.label9.TabIndex = 58;
@@ -88,7 +91,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(96, 130);
+            this.label10.Location = new System.Drawing.Point(95, 179);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 18);
             this.label10.TabIndex = 57;
@@ -99,7 +102,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Location = new System.Drawing.Point(27, 92);
+            this.label11.Location = new System.Drawing.Point(26, 141);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(174, 18);
             this.label11.TabIndex = 56;
@@ -110,7 +113,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label12.Location = new System.Drawing.Point(27, 57);
+            this.label12.Location = new System.Drawing.Point(26, 106);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(175, 18);
             this.label12.TabIndex = 55;
@@ -119,7 +122,7 @@
             // numberbox
             // 
             this.numberbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberbox.Location = new System.Drawing.Point(216, 154);
+            this.numberbox.Location = new System.Drawing.Point(215, 203);
             this.numberbox.Name = "numberbox";
             this.numberbox.Size = new System.Drawing.Size(333, 29);
             this.numberbox.TabIndex = 54;
@@ -127,7 +130,7 @@
             // addressbox
             // 
             this.addressbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressbox.Location = new System.Drawing.Point(216, 119);
+            this.addressbox.Location = new System.Drawing.Point(215, 168);
             this.addressbox.Name = "addressbox";
             this.addressbox.Size = new System.Drawing.Size(333, 29);
             this.addressbox.TabIndex = 53;
@@ -135,7 +138,7 @@
             // datebox
             // 
             this.datebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datebox.Location = new System.Drawing.Point(216, 81);
+            this.datebox.Location = new System.Drawing.Point(215, 130);
             this.datebox.Name = "datebox";
             this.datebox.Size = new System.Drawing.Size(333, 29);
             this.datebox.TabIndex = 52;
@@ -143,7 +146,7 @@
             // namebox
             // 
             this.namebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namebox.Location = new System.Drawing.Point(216, 46);
+            this.namebox.Location = new System.Drawing.Point(215, 95);
             this.namebox.Name = "namebox";
             this.namebox.Size = new System.Drawing.Size(333, 29);
             this.namebox.TabIndex = 51;
@@ -154,7 +157,7 @@
             this.savebutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savebutton.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton.ForeColor = System.Drawing.Color.Black;
-            this.savebutton.Location = new System.Drawing.Point(13, 286);
+            this.savebutton.Location = new System.Drawing.Point(12, 335);
             this.savebutton.Name = "savebutton";
             this.savebutton.Size = new System.Drawing.Size(89, 37);
             this.savebutton.TabIndex = 59;
@@ -168,7 +171,7 @@
             this.clearbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearbutton.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearbutton.ForeColor = System.Drawing.Color.Black;
-            this.clearbutton.Location = new System.Drawing.Point(171, 286);
+            this.clearbutton.Location = new System.Drawing.Point(170, 335);
             this.clearbutton.Name = "clearbutton";
             this.clearbutton.Size = new System.Drawing.Size(106, 37);
             this.clearbutton.TabIndex = 60;
@@ -182,7 +185,7 @@
             this.checkinfobutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.checkinfobutton.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkinfobutton.ForeColor = System.Drawing.Color.Black;
-            this.checkinfobutton.Location = new System.Drawing.Point(361, 286);
+            this.checkinfobutton.Location = new System.Drawing.Point(360, 335);
             this.checkinfobutton.Name = "checkinfobutton";
             this.checkinfobutton.Size = new System.Drawing.Size(188, 37);
             this.checkinfobutton.TabIndex = 61;
@@ -195,7 +198,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.Control;
-            this.label13.Location = new System.Drawing.Point(322, 191);
+            this.label13.Location = new System.Drawing.Point(321, 240);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(146, 22);
             this.label13.TabIndex = 63;
@@ -204,7 +207,7 @@
             // infotextbox_a
             // 
             this.infotextbox_a.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infotextbox_a.Location = new System.Drawing.Point(11, 216);
+            this.infotextbox_a.Location = new System.Drawing.Point(10, 265);
             this.infotextbox_a.Name = "infotextbox_a";
             this.infotextbox_a.Size = new System.Drawing.Size(537, 47);
             this.infotextbox_a.TabIndex = 62;
@@ -215,7 +218,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(356, 12);
+            this.label14.Location = new System.Drawing.Point(356, 57);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(77, 22);
             this.label14.TabIndex = 64;
@@ -226,7 +229,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(930, 12);
+            this.label1.Location = new System.Drawing.Point(939, 57);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 22);
             this.label1.TabIndex = 78;
@@ -237,7 +240,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(896, 191);
+            this.label2.Location = new System.Drawing.Point(910, 240);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 22);
             this.label2.TabIndex = 77;
@@ -246,7 +249,7 @@
             // infotextbox_b
             // 
             this.infotextbox_b.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infotextbox_b.Location = new System.Drawing.Point(586, 216);
+            this.infotextbox_b.Location = new System.Drawing.Point(600, 265);
             this.infotextbox_b.Name = "infotextbox_b";
             this.infotextbox_b.Size = new System.Drawing.Size(537, 47);
             this.infotextbox_b.TabIndex = 76;
@@ -258,7 +261,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(934, 286);
+            this.button1.Location = new System.Drawing.Point(948, 335);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 37);
             this.button1.TabIndex = 75;
@@ -272,7 +275,7 @@
             this.clearbutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.clearbutton2.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearbutton2.ForeColor = System.Drawing.Color.Black;
-            this.clearbutton2.Location = new System.Drawing.Point(748, 286);
+            this.clearbutton2.Location = new System.Drawing.Point(762, 335);
             this.clearbutton2.Name = "clearbutton2";
             this.clearbutton2.Size = new System.Drawing.Size(106, 37);
             this.clearbutton2.TabIndex = 74;
@@ -286,7 +289,7 @@
             this.savebutton2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.savebutton2.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.savebutton2.ForeColor = System.Drawing.Color.Black;
-            this.savebutton2.Location = new System.Drawing.Point(586, 286);
+            this.savebutton2.Location = new System.Drawing.Point(600, 335);
             this.savebutton2.Name = "savebutton2";
             this.savebutton2.Size = new System.Drawing.Size(89, 37);
             this.savebutton2.TabIndex = 73;
@@ -299,7 +302,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(584, 160);
+            this.label3.Location = new System.Drawing.Point(598, 209);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(191, 18);
             this.label3.TabIndex = 72;
@@ -310,7 +313,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(670, 130);
+            this.label4.Location = new System.Drawing.Point(684, 179);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 18);
             this.label4.TabIndex = 71;
@@ -321,7 +324,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(601, 92);
+            this.label5.Location = new System.Drawing.Point(615, 141);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(174, 18);
             this.label5.TabIndex = 70;
@@ -332,7 +335,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(601, 57);
+            this.label6.Location = new System.Drawing.Point(615, 106);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(175, 18);
             this.label6.TabIndex = 69;
@@ -341,7 +344,7 @@
             // numberbox2
             // 
             this.numberbox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numberbox2.Location = new System.Drawing.Point(790, 154);
+            this.numberbox2.Location = new System.Drawing.Point(804, 203);
             this.numberbox2.Name = "numberbox2";
             this.numberbox2.Size = new System.Drawing.Size(333, 29);
             this.numberbox2.TabIndex = 68;
@@ -349,7 +352,7 @@
             // addressbox2
             // 
             this.addressbox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressbox2.Location = new System.Drawing.Point(790, 119);
+            this.addressbox2.Location = new System.Drawing.Point(804, 168);
             this.addressbox2.Name = "addressbox2";
             this.addressbox2.Size = new System.Drawing.Size(333, 29);
             this.addressbox2.TabIndex = 67;
@@ -357,7 +360,7 @@
             // datebox2
             // 
             this.datebox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datebox2.Location = new System.Drawing.Point(790, 81);
+            this.datebox2.Location = new System.Drawing.Point(804, 130);
             this.datebox2.Name = "datebox2";
             this.datebox2.Size = new System.Drawing.Size(333, 29);
             this.datebox2.TabIndex = 66;
@@ -365,17 +368,41 @@
             // namebox2
             // 
             this.namebox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namebox2.Location = new System.Drawing.Point(790, 46);
+            this.namebox2.Location = new System.Drawing.Point(804, 95);
             this.namebox2.Name = "namebox2";
             this.namebox2.Size = new System.Drawing.Size(333, 29);
             this.namebox2.TabIndex = 65;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox1.Location = new System.Drawing.Point(127, 393);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(228, 179);
+            this.pictureBox1.TabIndex = 82;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LawnGreen;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button3.Font = new System.Drawing.Font("ROG Fonts", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Black;
+            this.button3.Location = new System.Drawing.Point(382, 462);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(142, 110);
+            this.button3.TabIndex = 83;
+            this.button3.Text = "generate qr code";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1137, 849);
+            this.ClientSize = new System.Drawing.Size(1137, 656);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.infotextbox_b);
@@ -411,6 +438,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CONTACT TRACING";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -446,6 +474,8 @@
         private System.Windows.Forms.TextBox addressbox2;
         private System.Windows.Forms.TextBox datebox2;
         private System.Windows.Forms.TextBox namebox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button3;
     }
 }
 
