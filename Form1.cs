@@ -58,8 +58,8 @@ namespace ContacTracibng
 
             string[] data = new string[4];
             data[0] = namebox.Text;
-            data[1] = datebox.Text;
-            data[2] = addressbox.Text;
+            data[1] = agebox.Text;
+            data[2] = birthbox.Text;
             data[3] = numberbox.Text;
             StreamReader sr = new StreamReader(@"savedinfounit1.txt");
             string oldatat = sr.ReadLine();
@@ -80,10 +80,10 @@ namespace ContacTracibng
          private void clearbutton_cliked(object sender, EventArgs e)
         {
             namebox.Clear();
-            datebox.Clear();
-            addressbox.Clear();
+            agebox.Clear();
+            birthbox.Clear();
             numberbox.Clear();
-            MessageBox.Show("TEXT BOXES CLEARED");
+            MessageBox.Show("TEXT BOXES CLEARED!");
         }
 
         private void checkinfobutton_clicked(object sender, EventArgs e)
@@ -100,8 +100,8 @@ namespace ContacTracibng
 
             string[] data = new string[4];
             data[0] = namebox2.Text;
-            data[1] = datebox2.Text;
-            data[2] = addressbox2.Text;
+            data[1] = agebox2.Text;
+            data[2] = birthbox2.Text;
             data[3] = numberbox2.Text;
             StreamReader sr = new StreamReader(@"savedinfounit2.txt");
             string oldatat = sr.ReadLine();
@@ -122,10 +122,10 @@ namespace ContacTracibng
         private void clearbutton2_click(object sender, EventArgs e)
         {
             namebox2.Clear();
-            datebox2.Clear();
-            addressbox2.Clear();
+            agebox2.Clear();
+            birthbox2.Clear();
             numberbox2.Clear();
-            MessageBox.Show("TEXT BOXES CLEARED");
+            MessageBox.Show("TEXT BOXES CLEARED!");
         }
 
         private void checkinfobutton2_clicked(object sender, EventArgs e)
@@ -147,7 +147,7 @@ namespace ContacTracibng
             // set format
             writer.Format = BarcodeFormat.QR_CODE;
             writer.Options= options;
-            var Text =  namebox.Text + datebox.Text  + addressbox.Text + numberbox.Text ;
+            var Text =  namebox.Text +agebox.Text  +birthbox.Text +numberbox.Text ;
             var result = writer.Write(Text);
             qrcodebox1.Image = result;
         }

@@ -34,8 +34,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.numberbox = new System.Windows.Forms.TextBox();
-            this.addressbox = new System.Windows.Forms.TextBox();
-            this.datebox = new System.Windows.Forms.TextBox();
+            this.birthbox = new System.Windows.Forms.TextBox();
+            this.agebox = new System.Windows.Forms.TextBox();
             this.namebox = new System.Windows.Forms.TextBox();
             this.savebutton = new System.Windows.Forms.Button();
             this.clearbutton = new System.Windows.Forms.Button();
@@ -50,17 +50,17 @@
             this.clearbutton2 = new System.Windows.Forms.Button();
             this.savebutton2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.numberbox2 = new System.Windows.Forms.TextBox();
-            this.addressbox2 = new System.Windows.Forms.TextBox();
-            this.datebox2 = new System.Windows.Forms.TextBox();
+            this.birthbox2 = new System.Windows.Forms.TextBox();
+            this.agebox2 = new System.Windows.Forms.TextBox();
             this.namebox2 = new System.Windows.Forms.TextBox();
             this.qrcodebox1 = new System.Windows.Forms.PictureBox();
             this.generatebutton1 = new System.Windows.Forms.Button();
             this.generatebutton2 = new System.Windows.Forms.Button();
             this.qrcodebox_2 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.qrcodebox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.qrcodebox_2)).BeginInit();
             this.SuspendLayout();
@@ -94,22 +94,22 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label10.Location = new System.Drawing.Point(95, 179);
+            this.label10.Location = new System.Drawing.Point(30, 179);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(105, 18);
+            this.label10.Size = new System.Drawing.Size(170, 18);
             this.label10.TabIndex = 57;
-            this.label10.Text = "Address:";
+            this.label10.Text = "place of birth:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label11.Location = new System.Drawing.Point(26, 141);
+            this.label11.Location = new System.Drawing.Point(138, 141);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(174, 18);
+            this.label11.Size = new System.Drawing.Size(62, 18);
             this.label11.TabIndex = 56;
-            this.label11.Text = "Complete Date:";
+            this.label11.Text = "a g e:";
             // 
             // label12
             // 
@@ -130,21 +130,21 @@
             this.numberbox.Size = new System.Drawing.Size(333, 29);
             this.numberbox.TabIndex = 54;
             // 
-            // addressbox
+            // birthbox
             // 
-            this.addressbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressbox.Location = new System.Drawing.Point(215, 168);
-            this.addressbox.Name = "addressbox";
-            this.addressbox.Size = new System.Drawing.Size(333, 29);
-            this.addressbox.TabIndex = 53;
+            this.birthbox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthbox.Location = new System.Drawing.Point(215, 168);
+            this.birthbox.Name = "birthbox";
+            this.birthbox.Size = new System.Drawing.Size(333, 29);
+            this.birthbox.TabIndex = 53;
             // 
-            // datebox
+            // agebox
             // 
-            this.datebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datebox.Location = new System.Drawing.Point(215, 130);
-            this.datebox.Name = "datebox";
-            this.datebox.Size = new System.Drawing.Size(333, 29);
-            this.datebox.TabIndex = 52;
+            this.agebox.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agebox.Location = new System.Drawing.Point(215, 130);
+            this.agebox.Name = "agebox";
+            this.agebox.Size = new System.Drawing.Size(333, 29);
+            this.agebox.TabIndex = 52;
             // 
             // namebox
             // 
@@ -311,28 +311,6 @@
             this.label3.TabIndex = 72;
             this.label3.Text = "Contact Number:";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(684, 179);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(105, 18);
-            this.label4.TabIndex = 71;
-            this.label4.Text = "Address:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(615, 141);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(174, 18);
-            this.label5.TabIndex = 70;
-            this.label5.Text = "Complete Date:";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -352,21 +330,21 @@
             this.numberbox2.Size = new System.Drawing.Size(333, 29);
             this.numberbox2.TabIndex = 68;
             // 
-            // addressbox2
+            // birthbox2
             // 
-            this.addressbox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addressbox2.Location = new System.Drawing.Point(804, 168);
-            this.addressbox2.Name = "addressbox2";
-            this.addressbox2.Size = new System.Drawing.Size(333, 29);
-            this.addressbox2.TabIndex = 67;
+            this.birthbox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.birthbox2.Location = new System.Drawing.Point(804, 168);
+            this.birthbox2.Name = "birthbox2";
+            this.birthbox2.Size = new System.Drawing.Size(333, 29);
+            this.birthbox2.TabIndex = 67;
             // 
-            // datebox2
+            // agebox2
             // 
-            this.datebox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datebox2.Location = new System.Drawing.Point(804, 130);
-            this.datebox2.Name = "datebox2";
-            this.datebox2.Size = new System.Drawing.Size(333, 29);
-            this.datebox2.TabIndex = 66;
+            this.agebox2.Font = new System.Drawing.Font("ROG Fonts", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.agebox2.Location = new System.Drawing.Point(804, 130);
+            this.agebox2.Name = "agebox2";
+            this.agebox2.Size = new System.Drawing.Size(333, 29);
+            this.agebox2.TabIndex = 66;
             // 
             // namebox2
             // 
@@ -379,9 +357,9 @@
             // qrcodebox1
             // 
             this.qrcodebox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.qrcodebox1.Location = new System.Drawing.Point(143, 439);
+            this.qrcodebox1.Location = new System.Drawing.Point(170, 439);
             this.qrcodebox1.Name = "qrcodebox1";
-            this.qrcodebox1.Size = new System.Drawing.Size(228, 179);
+            this.qrcodebox1.Size = new System.Drawing.Size(201, 158);
             this.qrcodebox1.TabIndex = 82;
             this.qrcodebox1.TabStop = false;
             // 
@@ -421,12 +399,36 @@
             this.qrcodebox_2.TabIndex = 84;
             this.qrcodebox_2.TabStop = false;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(727, 141);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 18);
+            this.label5.TabIndex = 86;
+            this.label5.Text = "a g e:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("ROG Fonts", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label4.Location = new System.Drawing.Point(619, 179);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(170, 18);
+            this.label4.TabIndex = 87;
+            this.label4.Text = "place of birth:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1155, 656);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.generatebutton2);
             this.Controls.Add(this.qrcodebox_2);
             this.Controls.Add(this.generatebutton1);
@@ -438,12 +440,10 @@
             this.Controls.Add(this.clearbutton2);
             this.Controls.Add(this.savebutton2);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.numberbox2);
-            this.Controls.Add(this.addressbox2);
-            this.Controls.Add(this.datebox2);
+            this.Controls.Add(this.birthbox2);
+            this.Controls.Add(this.agebox2);
             this.Controls.Add(this.namebox2);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -456,8 +456,8 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.numberbox);
-            this.Controls.Add(this.addressbox);
-            this.Controls.Add(this.datebox);
+            this.Controls.Add(this.birthbox);
+            this.Controls.Add(this.agebox);
             this.Controls.Add(this.namebox);
             this.Controls.Add(this.exitbutton);
             this.MaximizeBox = false;
@@ -480,8 +480,8 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox numberbox;
-        private System.Windows.Forms.TextBox addressbox;
-        private System.Windows.Forms.TextBox datebox;
+        private System.Windows.Forms.TextBox birthbox;
+        private System.Windows.Forms.TextBox agebox;
         private System.Windows.Forms.TextBox namebox;
         private System.Windows.Forms.Button savebutton;
         private System.Windows.Forms.Button clearbutton;
@@ -496,17 +496,17 @@
         private System.Windows.Forms.Button clearbutton2;
         private System.Windows.Forms.Button savebutton2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox numberbox2;
-        private System.Windows.Forms.TextBox addressbox2;
-        private System.Windows.Forms.TextBox datebox2;
+        private System.Windows.Forms.TextBox birthbox2;
+        private System.Windows.Forms.TextBox agebox2;
         private System.Windows.Forms.TextBox namebox2;
         private System.Windows.Forms.PictureBox qrcodebox1;
         private System.Windows.Forms.Button generatebutton1;
         private System.Windows.Forms.Button generatebutton2;
         private System.Windows.Forms.PictureBox qrcodebox_2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
     }
 }
 
