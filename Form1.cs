@@ -152,7 +152,26 @@ namespace ContacTracibng
             qrcodebox1.Image = result;
         }
 
-        
+        private void generatebutton2_Click(object sender, EventArgs e)
+        {
+            var options = new QrCodeEncodingOptions
+            {
+                Height = qrcodebox_2.Height,
+                Width = qrcodebox_2.Width
+            };
+            // create instance of barcodewriter
+            var writer = new BarcodeWriter();
+            // set format
+            writer.Format = BarcodeFormat.QR_CODE;
+            writer.Options = options;
+            var Text = namebox2.Text + agebox2.Text + birthbox2.Text + numberbox2.Text;
+            var result = writer.Write(Text);
+            qrcodebox_2.Image = result;
+        }
+        private void infobox_clicked(object sender, EventArgs e)
+        {
+            MessageBox.Show(" You cannot generate a QR code without filling up the form." + "  Press CLEAR BUTTON to clear out the form." + "  To check the informations that  you saved, press CHECK INFO button. It will show up on the SAVED INFO BOX.");
+        }
     }
 }
 
